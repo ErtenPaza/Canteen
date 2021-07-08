@@ -1,4 +1,4 @@
-﻿# Canteen
+# Canteen
 
 Canteen is a software written in PHP, JS and HTML which I made for my school, that allows clients to order items from the schools' canteen.
 
@@ -21,9 +21,9 @@ Canteen is a software written in PHP, JS and HTML which I made for my school, th
 
  3. (Optional) In order for the site to work correctly, you must give some files R/W permissions:
 
-		chmod 777 /var/www/html/activity.log
-		chmod 777 /var/www/html/orders/orders.txt
-		chmod 777 /var/www/keys/keys.csv
+		chmod 666 /var/www/html/activity.log
+		chmod 666 /var/www/html/orders/orders.txt
+		chmod 666 /var/www/keys/keys.csv
 
 ## User management
 
